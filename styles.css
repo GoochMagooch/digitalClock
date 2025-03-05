@@ -1,3 +1,30 @@
 body {
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 800px;
+}
+
+.am-pm {
+    width: 20%;
+    height: 80%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#clock {
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
 }
