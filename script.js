@@ -18,7 +18,7 @@ function updateClock() {
     let minute = now.getMinutes()
     minute = minute < 10 ? '0' + minute : minute
 
-    // Switch time between 12 and 24 hr format
+    // Switch time between 12h and 24h format
     if (!mTimeBool) {
         // Convert to 12-hour format
         let amPm = hour >= 12 ? 'PM' : 'AM'
